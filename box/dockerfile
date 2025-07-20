@@ -1,7 +1,12 @@
 FROM ubuntu:latest
 
 RUN apt update
+# RUN apt install python3
+RUN apt -y curl
 
+# コピーしたいホストのファイルやディレクトを指定しコンテナ何のどのディレクトリにそれをコピーするか指定する。
+# コンテナ内の存在しないディレクトを指定したときそのディレクトを生成してくれる。
+COPY ./hellow.txt /app/ 
 
 
 
