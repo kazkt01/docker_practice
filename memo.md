@@ -39,15 +39,6 @@ docker buildする際には、docker CLI から　dockerfileとコンテキス�
 コンテキストとは、シンプルに.や./のディレクトリ情報
 
 
-
-
-
-
-
-
-
-
-
 ## txtファイルとは？
 markdownだと装飾ができるがtxtファイルだと装飾がなく
 単なる文字
