@@ -1,4 +1,31 @@
 # memo
+
+
+# dockerとストレージについて
+コンテナレイヤーは、イメージレイヤーと違って変更は、できるがコンテナを起動した際にそのホスト内でしか稼働できない
+これを解決するのが
+ボリュームとバイマウントとという方法だ。
+
+# 新しいボリューム領域を作成する
+docker volume create ボリューム名
+
+# ボリューム領域一覧を表示する
+docker volume ls
+
+# 指定したボリューム領域の詳細情報を表示する
+docker volume inspect ボリューム名
+
+# 指定したボリューム領域を削除する
+docker volume rm ボリューム名
+
+
+
+
+
+
+
+
+
 ## dockerfileからイメージを作成するコマンド
 docker image build
 
@@ -37,7 +64,6 @@ REST API って何者？？
 docker buildする際には、docker CLI から　dockerfileとコンテキストを与える必要がある。
 
 コンテキストとは、シンプルに.や./のディレクトリ情報
-
 
 ## txtファイルとは？
 markdownだと装飾ができるがtxtファイルだと装飾がなく
