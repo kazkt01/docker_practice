@@ -1,0 +1,121 @@
+COMMAND     PID            USER   FD   TYPE             DEVICE SIZE/OFF   NODE NAME
+launchd       1            root   19u  IPv4 0x77e2365d6d9050db      0t0    UDP *:138
+launchd       1            root   32u  IPv4 0x77e2365d6d9014db      0t0    UDP *:137
+systemsta   302            root   16u  IPv4 0x77e2365d6d9aa8db      0t0    UDP *:*
+configd     305            root   12u  IPv4 0x77e2365d6d8f60db      0t0    UDP *:*
+configd     305            root   18u  IPv6 0x77e2365d6d9954db      0t0 ICMPV6 *:*
+configd     305            root   25u  IPv4 0x77e2365d6d9b40db      0t0    UDP *:*
+configd     305            root   26u  IPv4 0x77e2365d6d9b44db      0t0    UDP *:*
+syslogd     329            root   10u  IPv4 0x77e2365d6d8f5cdb      0t0    UDP *:63938
+locationd   340      _locationd    7u  IPv4 0x77e2365d6d9a40db      0t0    UDP *:*
+bluetooth   354            root   11u  IPv4 0x77e2365d6d9b30db      0t0    UDP *:*
+bluetooth   354            root   13u  IPv4 0x77e2365d6d9be0db      0t0    UDP *:*
+bluetooth   354            root   14u  IPv4 0x77e2365d6d9c00db      0t0    UDP *:*
+loginwind   365 tachibanakazuki    4u  IPv4 0x77e2365d6d9bc4db      0t0    UDP *:*
+airportd    369            root    4u  IPv4 0x77e2365d6d9018db      0t0    UDP *:*
+airportd    369            root    9u  IPv6 0x77e2365d6d9030db      0t0    UDP *:*
+airportd    369            root   11u  IPv4 0x77e2365d6d9038db      0t0    UDP *:*
+airportd    369            root   14u  IPv4 0x77e2365d6d9b50db      0t0    UDP *:*
+airportd    369            root   15u  IPv4 0x77e2365d6d9024db      0t0    UDP *:*
+airportd    369            root   16u  IPv4 0x77e2365d6d902cdb      0t0    UDP *:*
+airportd    369            root   17u  IPv4 0x77e2365d6d9b14db      0t0    UDP *:*
+airportd    369            root   19u  IPv4 0x77e2365d6d9adcdb      0t0    UDP *:*
+airportd    369            root   20u  IPv4 0x77e2365d6d9bbcdb      0t0    UDP *:*
+airportd    369            root   21u  IPv4 0x77e2365d6e93e4db      0t0    UDP *:*
+airportd    369            root   23u  IPv4 0x77e2365d6d9020db      0t0    UDP *:*
+airportd    369            root   24u  IPv4 0x77e2365d6d9028db      0t0    UDP *:*
+mDNSRespo   441  _mdnsresponder    6u  IPv4 0x77e2365d6d9ac0db      0t0    UDP *:5353
+mDNSRespo   441  _mdnsresponder    7u  IPv6 0x77e2365d6d9a84db      0t0    UDP *:5353
+symptomsd   459       _networkd   24u  IPv4 0x77e2365d6d9a60db      0t0    UDP *:*
+wifianaly   598            root    3u  IPv4 0x77e2365d6e940cdb      0t0    UDP *:*
+rapportd    606 tachibanakazuki    9u  IPv4 0x77e236623bbee8eb      0t0    TCP *:56508 (LISTEN)
+rapportd    606 tachibanakazuki   10u  IPv4 0x77e2365d6d8f24db      0t0    UDP *:*
+rapportd    606 tachibanakazuki   11u  IPv4 0x77e2365d6d9048db      0t0    UDP *:*
+rapportd    606 tachibanakazuki   13u  IPv6 0x77e236623a50e81b      0t0    TCP *:56508 (LISTEN)
+rapportd    606 tachibanakazuki   19u  IPv4 0x77e2365d6d9ab0db      0t0    UDP *:*
+rapportd    606 tachibanakazuki   21u  IPv4 0x77e2365d6d9a30db      0t0    UDP *:*
+identitys   628 tachibanakazuki   15u  IPv4 0x77e2365d6d8f84db      0t0    UDP *:*
+identitys   628 tachibanakazuki   20u  IPv4 0x77e2365d6d8f74db      0t0    UDP *:*
+identitys   628 tachibanakazuki   49u  IPv6 0x77e236623a51001b      0t0    TCP [fe80:13::4727:f336:7592:7c6a]:1024->[fe80:13::77f1:d3a3:a91f:edac]:1024 (ESTABLISHED)
+identitys   628 tachibanakazuki   53u  IPv6 0x77e236623a50d81b      0t0    TCP [fe80:13::4727:f336:7592:7c6a]:1025->[fe80:13::77f1:d3a3:a91f:edac]:1027 (ESTABLISHED)
+identitys   628 tachibanakazuki   54u  IPv6 0x77e236623a50d81b      0t0    TCP [fe80:13::4727:f336:7592:7c6a]:1025->[fe80:13::77f1:d3a3:a91f:edac]:1027 (ESTABLISHED)
+WiFiAgent   634 tachibanakazuki    3u  IPv4 0x77e2365d6d9b4cdb      0t0    UDP *:*
+ControlCe   660 tachibanakazuki    8u  IPv4 0x77e236623a9e346b      0t0    TCP *:7000 (LISTEN)
+ControlCe   660 tachibanakazuki    9u  IPv6 0x77e236623a50f81b      0t0    TCP *:7000 (LISTEN)
+ControlCe   660 tachibanakazuki   10u  IPv4 0x77e236623a9e3feb      0t0    TCP *:5000 (LISTEN)
+ControlCe   660 tachibanakazuki   11u  IPv6 0x77e236623a51081b      0t0    TCP *:5000 (LISTEN)
+ControlCe   660 tachibanakazuki   18u  IPv4 0x77e2365d6d9abcdb      0t0    UDP *:*
+sharingd    682 tachibanakazuki    4u  IPv4 0x77e2365d6d9b28db      0t0    UDP *:*
+sharingd    682 tachibanakazuki    5u  IPv4 0x77e2365d6d904cdb      0t0    UDP *:*
+sharingd    682 tachibanakazuki    6u  IPv4 0x77e2365d6d9b48db      0t0    UDP *:*
+sharingd    682 tachibanakazuki    7u  IPv4 0x77e2365d6d9b20db      0t0    UDP *:*
+sharingd    682 tachibanakazuki    8u  IPv4 0x77e2365d6d9040db      0t0    UDP *:*
+sharingd    682 tachibanakazuki   10u  IPv4 0x77e2365d6d9a78db      0t0    UDP *:*
+sharingd    682 tachibanakazuki   11u  IPv4 0x77e2365d6d9b38db      0t0    UDP *:*
+sharingd    682 tachibanakazuki   16u  IPv6 0x77e2365d6d9ba4db      0t0    UDP *:60988
+assistant   754 tachibanakazuki   26u  IPv4 0x77e2365d6d9ad8db      0t0    UDP *:*
+wifiveloc   788            root    3u  IPv4 0x77e2365d6d9968db      0t0    UDP *:*
+figma_age   808 tachibanakazuki    9u  IPv4 0x77e236623a9e4b6b      0t0    TCP 127.0.0.1:44960 (LISTEN)
+figma_age   808 tachibanakazuki   10u  IPv4 0x77e236623a9e56eb      0t0    TCP 127.0.0.1:44950 (LISTEN)
+systemsta  1236            root   16u  IPv4 0x77e2365d6d9aa8db      0t0    UDP *:*
+PerfPower 18029            root   18u  IPv4 0x77e2365d6d8f6cdb      0t0    UDP *:*
+PerfPower 18029            root   19u  IPv4 0x77e2365d6d8f70db      0t0    UDP *:*
+PerfPower 18029            root   20u  IPv4 0x77e2365d6d8f88db      0t0    UDP *:*
+PerfPower 18029            root   21u  IPv4 0x77e2365d6d8f78db      0t0    UDP *:*
+WirelessR 33711            root    4u  IPv4 0x77e2365d6d8f68db      0t0    UDP *:*
+WirelessR 33711            root    5u  IPv4 0x77e2365d6d8f8cdb      0t0    UDP *:*
+WirelessR 33711            root    6u  IPv4 0x77e2365d6d8f90db      0t0    UDP *:*
+netbiosd  38007        _netbios    3u  IPv4 0x77e2365d6d9014db      0t0    UDP *:137
+netbiosd  38007        _netbios    4u  IPv4 0x77e2365d6d9050db      0t0    UDP *:138
+com.docke 40797 tachibanakazuki  406u  IPv4 0x77e2365d6d995cdb      0t0   ICMP *:*
+com.docke 40797 tachibanakazuki  408u  IPv6 0x77e2365d6d9960db      0t0 ICMPV6 *:*
+wifip2pd  52039            root    4u  IPv4 0x77e2365d6d9034db      0t0    UDP *:*
+wifip2pd  52039            root    6u  IPv4 0x77e2365d6d9974db      0t0    UDP *:*
+wifip2pd  52039            root    7u  IPv4 0x77e2365d6d9b1cdb      0t0    UDP *:*
+chronod   52184 tachibanakazuki    8u  IPv6 0x77e2365d6d9a24db      0t0    UDP *:60326
+ControlCe 55530 tachibanakazuki    3u  IPv4 0x77e2365d6d9c08db      0t0    UDP *:*
+Google    56125 tachibanakazuki  120u  IPv4 0x77e2365d6d9a38db      0t0    UDP *:*
+Google    56178 tachibanakazuki   20u  IPv4 0x77e236623bbc04eb      0t0    TCP 10.140.238.236:59260->3.163.218.66:443 (ESTABLISHED)
+Google    56178 tachibanakazuki   22u  IPv4 0x77e236623bbdadeb      0t0    TCP 10.140.238.236:58943->140.82.113.26:443 (ESTABLISHED)
+Google    56178 tachibanakazuki   24u  IPv4 0x77e2365d6d9a3cdb      0t0    UDP 10.140.238.236:61729->172.217.26.238:443
+Google    56178 tachibanakazuki   28u  IPv4 0x77e236623a9e906b      0t0    TCP 10.140.238.236:56526->74.125.203.188:5228 (ESTABLISHED)
+Google    56178 tachibanakazuki   29u  IPv4 0x77e2365d6d9990db      0t0    UDP 10.140.238.236:51009->142.251.222.46:443
+Google    56178 tachibanakazuki   30u  IPv4 0x77e236623bbd746b      0t0    TCP 10.140.238.236:59257->18.221.184.159:443 (ESTABLISHED)
+Google    56178 tachibanakazuki   35u  IPv4 0x77e236623a9a16eb      0t0    TCP 10.140.238.236:56837->172.64.148.235:443 (ESTABLISHED)
+Google    56178 tachibanakazuki   37u  IPv4 0x77e236623a9a44eb      0t0    TCP 10.140.238.236:59259->150.171.27.10:443 (ESTABLISHED)
+Google    56178 tachibanakazuki   39u  IPv4 0x77e236623bbaadeb      0t0    TCP 10.140.238.236:56870->172.64.148.235:443 (ESTABLISHED)
+Google    56178 tachibanakazuki   48u  IPv4 0x77e2365d6d8f64db      0t0    UDP 10.140.238.236:50585->142.250.196.138:443
+Google    56178 tachibanakazuki   53u  IPv4 0x77e236623bbd68eb      0t0    TCP 10.140.238.236:59012->157.90.91.73:443 (ESTABLISHED)
+Google    56178 tachibanakazuki  172u  IPv6 0x77e2365d6d9ae0db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  173u  IPv4 0x77e2365d6d9ae4db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  174u  IPv6 0x77e2365d6d9afcdb      0t0    UDP *:5353
+Google    56178 tachibanakazuki  175u  IPv6 0x77e2365d6d9a44db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  176u  IPv6 0x77e2365d6d9a48db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  177u  IPv6 0x77e2365d6d9a50db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  178u  IPv6 0x77e2365d6d9a14db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  179u  IPv6 0x77e2365d6d9a20db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  180u  IPv6 0x77e2365d6d9a28db      0t0    UDP *:5353
+Google    56178 tachibanakazuki  181u  IPv6 0x77e2365d6d9a2cdb      0t0    UDP *:5353
+Google    56178 tachibanakazuki  182u  IPv6 0x77e2365d6d9a70db      0t0    UDP *:5353
+Cursor    56582 tachibanakazuki   58u  IPv4 0x77e236623b94226b      0t0    TCP 10.71.205.2:64636->34.202.95.160:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   63u  IPv4 0x77e236623a9e626b      0t0    TCP 192.168.1.65:49668->142.250.207.42:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   64u  IPv4 0x77e236623b93f46b      0t0    TCP 10.71.205.2:64635->104.18.18.125:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   65u  IPv4 0x77e236623bc07feb      0t0    TCP 192.168.1.65:49918->142.251.222.42:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   66u  IPv4 0x77e236623a99ffeb      0t0    TCP 100.112.190.3:64765->107.22.7.225:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   69u  IPv4 0x77e236623a9e1d6b      0t0    TCP 192.168.10.2:52967->172.217.161.42:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   70u  IPv4 0x77e236623bbf0b6b      0t0    TCP 192.168.10.2:65496->3.222.32.113:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   71u  IPv4 0x77e236623bbf226b      0t0    TCP 192.168.1.65:49669->142.250.207.42:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   73u  IPv4 0x77e236623bbeffeb      0t0    TCP 192.168.10.2:53580->142.251.222.10:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   74u  IPv4 0x77e236623bbbe26b      0t0    TCP 10.140.238.236:59099->104.18.18.125:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   76u  IPv4 0x77e236623bba746b      0t0    TCP 10.140.238.236:59179->100.26.13.89:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   77u  IPv4 0x77e236623bc05d6b      0t0    TCP 10.140.238.236:56738->13.223.133.215:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   78u  IPv4 0x77e236623bbcdd6b      0t0    TCP 192.168.10.2:51923->34.206.35.36:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   79u  IPv4 0x77e236623bbef46b      0t0    TCP 192.168.10.2:51924->34.206.35.36:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   81u  IPv4 0x77e236623a9a226b      0t0    TCP 10.140.238.236:57090->34.231.42.187:443 (ESTABLISHED)
+Cursor    56582 tachibanakazuki   83u  IPv4 0x77e236623a9e84eb      0t0    TCP 192.168.1.65:54717->52.5.134.80:443 (ESTABLISHED)
+Notion    72769 tachibanakazuki   23u  IPv4 0x77e2365d6d9a4cdb      0t0    UDP 10.140.238.236:60807->208.103.161.2:443
+Notion    72769 tachibanakazuki   25u  IPv4 0x77e236623a9e28eb      0t0    TCP 10.140.238.236:56531->208.103.161.1:443 (ESTABLISHED)
+Notion    72769 tachibanakazuki   30u  IPv4 0x77e236623bbcffeb      0t0    TCP 10.140.238.236:56533->208.103.161.1:443 (ESTABLISHED)
+
+
+
