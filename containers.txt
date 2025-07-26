@@ -1,0 +1,10 @@
+CONTAINER ID   IMAGE                    COMMAND                   CREATED          STATUS                            PORTS     NAMES
+807dce583445   nginx                    "/docker-entrypoint.…"   35 seconds ago   Up 35 seconds                     80/tcp    my-nginx-3
+51280b6c1dd8   nginx                    "/docker-entrypoint.…"   2 minutes ago    Up 2 minutes                      80/tcp    my-nginx-2
+0060888dbd4b   my-ub                    "bash"                    4 minutes ago    Up 4 minutes                                my-ubuntu-2
+13708d67e150   my-ub                    "bash"                    9 minutes ago    Up 8 minutes                                my-buntu-1
+f2ba08adc981   nginx                    "/docker-entrypoint.…"   22 minutes ago   Up 22 minutes                     80/tcp    my-ngin-2
+63fc69b003c7   nginx                    "/docker-entrypoint.…"   29 minutes ago   Up 29 minutes                     80/tcp    my-nginx-1
+dbe56b4e0d20   fullstack-app-frontend   "docker-entrypoint.s…"   2 months ago     Restarting (254) 45 seconds ago             nextjs-frontend
+1f0c1865140e   fullstack-app-backend    "uvicorn app.main:ap…"   2 months ago     Restarting (1) 45 seconds ago               fastapi-backend
+

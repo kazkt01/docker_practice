@@ -1,6 +1,31 @@
 # memo
 
 
+
+11b46c8c100a   my-net
+
+my-ub
+
+docker container run -itd --name my-ubuntu-2  --network my-net my-ub
+
+
+docker container run -d --name my-nginx-2 nginx
+
+ docker container run -d --name my-nginx-3 --network my-net nginx
+
+
+
+                "IPv4Address": "172.22.0.3/16",
+
+
+                
+
+
+resetコマンドでコマンドラインを綺麗にできる。
+
+
+
+
 # dockerとストレージについて
 コンテナレイヤーは、イメージレイヤーと違って変更は、できるがコンテナを起動した際にそのホスト内でしか稼働できない
 これを解決するのが
