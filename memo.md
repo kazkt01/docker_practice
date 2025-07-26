@@ -19,6 +19,22 @@ docker volume inspect ボリューム名
 docker volume rm ボリューム名
 
 
+<!-- ボリュームを永続化する方法。 -->
+#　ボリュームに接続しながらコンテナを起動する。
+
+
+docker container run -v ボリューム名:コンテナ内絶対パス　イメージ
+
+# dstは、デスティネーションの略
+docker container run -mount type=volume src=ボリューム名,dst=コンテナ内絶対パス　イメージ
+
+
+
+
+
+
+
+
 
 
 
